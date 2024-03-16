@@ -25,7 +25,8 @@ The core objective was to create a system that can simulate stock market fluctua
 
 ### Process Flow
 
-Data Simulation: I wrote Python scripts that generate simulated stock market data, emulating real-world trading activities.
-Streaming Setup: Utilized Apache Kafka on AWS EC2 to establish a real-time data streaming environment, handling the flow between data producers and consumers.
-Storage and Cataloging: Configured AWS S3 for storing the streamed data and AWS Glue to catalog the data structure, making it query-ready.
-Data Analysis: Used Amazon Athena for conducting SQL-based analysis on the cataloged data, extracting valuable insights into simulated market trends.
+1. #### Data Simulation: I wrote Python scripts that generate simulated stock market data, emulating real-world trading activities.
+2. #### Streaming Setup: Utilized Apache Kafka on AWS EC2 to establish a real-time data streaming environment, handling the flow between data producers and consumers.
+3. #### Storage and Cataloging: Configured AWS S3 for storing the streamed data and AWS Glue to catalog the data structure, making it query-ready.
+4. #### Data Analysis: Used Amazon Athena for conducting SQL-based analysis on the cataloged data, extracting valuable insights into simulated market trends.
+
