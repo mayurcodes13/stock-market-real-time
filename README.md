@@ -1,5 +1,4 @@
 # Real-Time Stock Market Data Processing
-
 ## Introduction
 
 As part of my personal exploration into data engineering and analytics, I developed a real-time data processing system to simulate and analyze stock market activities. This project showcases my ability to design and implement a scalable, fault-tolerant architecture that processes and analyzes high-velocity data streams, mimicking the dynamism of financial markets.
