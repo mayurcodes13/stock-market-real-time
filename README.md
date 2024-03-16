@@ -15,13 +15,13 @@ The core objective was to create a system that can simulate stock market fluctua
 ## Implementation Details
 ### Technology Stack
 
-* #### Apache Kafka: Used for creating robust real-time streaming pipelines.
-* #### AWS EC2: Hosted the Kafka cluster, ensuring scalable and efficient data handling.
-* #### AWS S3: Acted as the storage solution for the processed data streams.
-* #### AWS Glue: Automated the cataloging of data schemas, facilitating organized data analysis.
-* #### Amazon Athena: Enabled SQL-based analytics on the processed and cataloged data.
-* #### Python: Scripted the data production and consumption logic.
-* #### Jupyter Notebook: Served as the interactive environment for developing and testing the Python scripts.
+#### *  Apache Kafka: #### Used for creating robust real-time streaming pipelines.
+#### *  AWS EC2: #### Hosted the Kafka cluster, ensuring scalable and efficient data handling.
+#### *  AWS S3: #### Acted as the storage solution for the processed data streams.
+#### *  AWS Glue: #### Automated the cataloging of data schemas, facilitating organized data analysis.
+#### *  Amazon Athena: #### Enabled SQL-based analytics on the processed and cataloged data.
+#### *  Python: #### Scripted the data production and consumption logic.
+#### *  Jupyter Notebook: #### Served as the interactive environment for developing and testing the Python scripts.
 
 ### Process Flow
 
