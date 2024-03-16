@@ -1,4 +1,5 @@
 # Real-Time Stock Market Data Processing
+
 ## Introduction
 
 As part of my personal exploration into data engineering and analytics, I developed a real-time data processing system to simulate and analyze stock market activities. This project showcases my ability to design and implement a scalable, fault-tolerant architecture that processes and analyzes high-velocity data streams, mimicking the dynamism of financial markets.
@@ -21,3 +22,10 @@ The core objective was to create a system that can simulate stock market fluctua
 * #### Amazon Athena: Enabled SQL-based analytics on the processed and cataloged data.
 * #### Python: Scripted the data production and consumption logic.
 * #### Jupyter Notebook: Served as the interactive environment for developing and testing the Python scripts.
+
+### Process Flow
+
+Data Simulation: I wrote Python scripts that generate simulated stock market data, emulating real-world trading activities.
+Streaming Setup: Utilized Apache Kafka on AWS EC2 to establish a real-time data streaming environment, handling the flow between data producers and consumers.
+Storage and Cataloging: Configured AWS S3 for storing the streamed data and AWS Glue to catalog the data structure, making it query-ready.
+Data Analysis: Used Amazon Athena for conducting SQL-based analysis on the cataloged data, extracting valuable insights into simulated market trends.
